@@ -1,0 +1,45 @@
+.FormContainer {
+  position: absolute;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+  width: 95%;
+  left: 2.5%;
+  height: auto;
+  top: 25%;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1080px) {
+  .FormContainer {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    height: auto;
+    top: 10%;
+  }
+}
+
+.btn-warning,
+.btn-danger {
+  margin-left: 30px;
+}
+
+.Users {
+  display: inline-flex;
+  position: absolute;
+  top: 15%;
+  left: 7%;
+}
+
+span {
+  margin-right: 10px;
+}
+
+.list-group-item p {
+  display: inline-flex;
+  float: right;
+}
